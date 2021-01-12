@@ -3,3 +3,10 @@ $(document).ready(function(){
     displaySecretText()
     });
 });
+
+
+// Autre méthode 
+
+// $(document).ready(function(){
+//     $("button").click(displaySecretText)
+// });

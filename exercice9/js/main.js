@@ -1,6 +1,9 @@
 $(document).ready(function(){
-    $(".btn").click(function hiddenText(){
-        $("#text").css("display", "block");
+    $(".btn").click(function(){
+        hiddenText();
     });
-    hiddenText()
 });
+
+function hiddenText(){
+    $("#text").css("display", "block");
+};
