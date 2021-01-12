@@ -11,5 +11,5 @@ $(document).ready(function(){
 //     });
 // });
 
-// dans le cas où on voudrait changer plusieurs propriétés CSS en même temps, il se peut que ça ne marche pas pour certaines comme background-color car ça peut correspondre à une fonctionnalité en jQuery
-// on peut donc changer le kebab case (syntaxe avec tirets) en camel case, background-color -> backgroundColor
+// dans le cas où on voudrait changer plusieurs propriétés CSS en même temps, ça ne marche pas pour celles qui s'écrivent avec des tirets, PAS DE TIRETS EN JAVASCRIPT
+// on change le kebab case (syntaxe avec tirets) en camel case, background-color -> backgroundColor
