@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(".btn").click(function(){
         $("#square").animate({
             marginLeft: "+=50px",
-            marginTop: "+=10px",
+            marginTop: "+=120px",
         });
     });
 });
