@@ -10,23 +10,3 @@ $(document).ready(function () {
         })
     })
 });
-
-
-// $(document).ready(function () {
-//     $(".btn").click(function () {
-//         $.ajax({
-//             url: "https://restcountries.eu/rest/v2/name/all",
-//             success: function (data, status, response) {
-//                 console.log(response.statusCode);
-//                 $("#countries").text(data.map(function (country) {
-//                     return country.name;
-//                 }).join(" - "));
-//             },
-//             method: "get",
-//             error: function(data, status, response){
-//                 $("#countries").text("Erreur")
-//             },
-//             dataType: "json",
-//         })
-//     })
-// });
