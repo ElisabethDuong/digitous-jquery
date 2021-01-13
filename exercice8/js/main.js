@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    $(".btn").click(function(){
-    displaySecretText()
+$(document).ready(function () {
+    $(".btn").click(function () {
+        displaySecretText()
     });
 });
 

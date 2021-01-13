@@ -1,20 +1,26 @@
-$(document).ready(function(){
-    $(".btn").click(function(){
+$(document).ready(function () {
+    $(".btn").click(function () {
 
         var password = $("input").val();
         console.log(password.length);
 
-        if (password.length < 5) {
-            $("input").addClass("is-invalid");
-        } else {
+        if (password.length > 5) {
             $("input").addClass("is-valid");
-            $("input").removeClass("is-invalid");
+        } else {
+            $("input").addClass("is-invalid");
         }
     });
 });
 
-// il faut bien mettre la ligne $("input").removeClass("is-invalid") dans les conditions pour que la classe change quand on dépasse 5 caractères, sinon on sera obligé d'actualiser la page pour ressaisir le mot de passe
-
 
 // Autre méthode 
 
+// $(document).ready(function () {
+//     $(".btn").click(function () {
+//         if ($("input").val().length > 5) {
+//             $("input").addClass("is-valid");
+//         } else {
+//             $("input").addClass("is-invalid");
+//         }
+//     });
+// });
